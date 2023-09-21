@@ -1,7 +1,7 @@
 
 ;hello.asm
 section .data
-	msg db "hello, world",0dh, 0ah,0
+	msg db "Hello, world AVX!",0dh, 0ah,0
 section .bss
 section .text
 	global main
